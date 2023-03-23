@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.container .pra-fazer{
+    background: rgba(229, 229, 31, 0.5);
+    padding: 40px 40px 50% 40px;
+    border: 1px solid rgb(23, 22, 22);
+    margin: 10px 40px;
+}
+
+.container .pra-fazer #pra-fazer-box{
+    border-bottom: 2px solid rgb(15, 14, 14);
+    margin: auto -5px; /* adicione uma margem negativa para estender a borda da div b */
+    padding: 1px 40px;
+}
+
+.container .planejar{
+    background: rgb(31, 146, 229, 0.5);
+     border: 1px solid rgb(23, 22, 22);
+}
+
+.container .executar{
+    background: rgb(31, 229, 44, 0.5);
+     border: 1px solid rgb(23, 22, 22);
+}
+
+.container .revisar{
+    background: rgb(226, 60, 18, 0.5);
+     border: 1px solid rgb(23, 22, 22);
+}
+
+.container .ajustar{
+    background: rgb(229, 31, 31, 0.5);
+     border: 1px solid rgb(23, 22, 22);
+}
+
+.container .feito{
+    background: rgb(1, 157, 11, 0.5); 
+    border: 1px solid rgb(23, 22, 22);
+}
