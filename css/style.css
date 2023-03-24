@@ -9,16 +9,27 @@
 
 .container .pra-fazer{
     background: rgba(229, 229, 31, 0.5);
-    padding: 40px 40px 50% 40px;
+    box-sizing: border-box;
+    margin-top: 1%;
+    width: 15%;
+    padding-bottom: 30%;      
     border: 1px solid rgb(23, 22, 22);
-    margin: 10px 40px;
+    
 }
 
 .container .pra-fazer #pra-fazer-box{
     border-bottom: 2px solid rgb(15, 14, 14);
-    margin: auto -5px; /* adicione uma margem negativa para estender a borda da div b */
-    padding: 1px 40px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    background: red;
 }
+.container .pra-fazer #pra-fazer-box p{
+    text-align: center;
+}
+
 
 .container .planejar{
     background: rgb(31, 146, 229, 0.5);
