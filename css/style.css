@@ -4,7 +4,9 @@
 }
 
 body{
-    background: rgb(245, 243, 243);
+    background-image: url(https://media.istockphoto.com/id/1287521051/pt/foto/table-with-tools-color-swatches-and-cups-left-after-renovation.jpg?s=612x612&w=0&k=20&c=qUXf2lDGjw-wtZgbzvNiYHx3j14aGqlpPtZRcqupQNw=);
+    background-position: center;
+    background-size: contain;
 }
 
 /*Barra de navegação*/
@@ -12,6 +14,7 @@ nav{
     background: rgba(0, 0, 0, 1);  
     margin-top: 0%;
     margin-bottom: 2%;
+    
 
 }
 
@@ -22,6 +25,7 @@ nav{
     padding: 0.2%;
     justify-content: space-between; 
     list-style-type: none; 
+    
 }
 
 nav ul li a{
@@ -36,7 +40,8 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     margin: 2%;
-   
+    
+    
 }
 
 /*Botões*/
@@ -69,7 +74,8 @@ nav ul li a{
     box-sizing: border-box;
     margin-top: 1%;
     width: 15%;
-    padding-bottom: 30%;             
+    padding-bottom: 30%;   
+              
 }
 
 .container .planejar{
@@ -136,7 +142,8 @@ nav ul li a{
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    width: 60%;       
+    width: 60%; 
+    
 }
 
 .container .executar #executar-box{
@@ -215,4 +222,46 @@ nav ul li a{
   padding-top: 0.5vh;
   font-size: 1.5vw;
   
+}
+
+/*Form do input*/
+.form{
+    background-color: rgba(255, 255, 255, 0.8); /* fundo branco */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;  
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra */
+    max-width: 500px; /* largura máxima */
+    width: 50%; /* largura total */
+    max-height: 80vh; /* altura máxima */
+    
+    
+}
+
+input {
+    height: 150px;
+    width: 300px;
+    word-wrap: break-word;
+    background-color: rgba(168, 227, 224, 0.4);
+    justify-content: space-between;
+  }
+
+button{
+    background-color:  rgba(255, 255, 255, 0.4);
+    width: 80px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+h3{
+    padding-bottom: 10px;
+    justify-content: center;
 }
