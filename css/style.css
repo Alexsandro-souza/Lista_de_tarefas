@@ -5,6 +5,7 @@
 
 body{
     background-image: url(https://media.istockphoto.com/id/1287521051/pt/foto/table-with-tools-color-swatches-and-cups-left-after-renovation.jpg?s=612x612&w=0&k=20&c=qUXf2lDGjw-wtZgbzvNiYHx3j14aGqlpPtZRcqupQNw=);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
@@ -31,7 +32,8 @@ nav{
 nav ul li a{
     margin: 1vw;
     font-size: 2vw;
-    color: red;     
+    color: red;
+     
     
 }
 
