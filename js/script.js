@@ -7,8 +7,8 @@ const botaoCriar = document.querySelector('#input-Tarefas');
 const botaoDeletar = document.querySelector('#delete-tarefas');
 
 // Evento do click criando tarefa
-const criarTarefa = botaoCriar.addEventListener('click', () =>{
-    console.log('oi')
+const criarTarefa = botaoCriar.addEventListener('click', () =>{    
+    // Criando modal na pagina principal
     const formTarefa = document.createElement("form");
     const pTarefa = document.createElement("h3");
     pTarefa.textContent = 'Informe a nova tarefa aqui abaixo'
