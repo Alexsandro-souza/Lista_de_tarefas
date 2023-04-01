@@ -13,7 +13,7 @@ const criarTarefa = botaoCriar.addEventListener('click', () =>{
     const pTarefa = document.createElement("h3");
     pTarefa.textContent = 'Informe a nova tarefa aqui abaixo'
     formTarefa.classList.add("form");
-    const inputTarefa = document.createElement("input");    
+    const inputTarefa = document.createElement("textarea");    
     inputTarefa.type = 'text';    
     const botaoEnviar = document.createElement("button");
     botaoEnviar.textContent = 'Criar tarefa';
